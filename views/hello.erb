@@ -1,0 +1,15 @@
+<html>
+<head></head>
+<body><strong>
+  <%= "HELLO #{params[:name]}".reverse %>
+  <form action="/calendar" method="POST">
+    <label for="year">YEAR</label>
+    <input type="text" name="year"/>
+    <br/>
+    <label for="month">MONTH</label>
+    <input type="text" name="month"/>
+    <br/>
+    <input type="submit" value="SUBMIT"/>
+  </form>
+  </strong></body>
+</html>
